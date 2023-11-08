@@ -59,6 +59,8 @@ PKG_CONFIGURE_FLAGS=(
 	--build=$BUILD
 	--target=$TARGET
 	#
+ 	--enable-extra-encodings
+  	#
 	--prefix=$PREREQ_DIR/$PKG_NAME
     --enable-relocatable
     --disable-rpath
